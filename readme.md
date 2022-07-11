@@ -9,6 +9,9 @@ cada vez que recuperamos un satelite los ateroides se mueven mas rapido
 
 al recuperar un determinado numero de satelites se resetea la partida y la velocidad de los asteroides pero aumentan en cantidad
 
+### como jugar
+descargar el repositorio y descomprimirlo, luego abrir el archivo index.html en el navegador
+
 ### usando calses y objetos
 **clases**
 - juego: controla la logica de la aplicacion

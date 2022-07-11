@@ -12,4 +12,5 @@ al recuperar un determinado numero de satelites se resetea la velocidad de los a
 -elemento: calse generica para todos los elementos en pantalla para mostar su ubucacion y actualizarla
 -enemigo: clase que controla las acciones de los asteroides
 -nave: clase que controla el elmento usado por el usuario con su logica
--piezas: hereda de enemigo sus acciones 
+-piezas: hereda de enemigo sus acciones y comportamiento
+

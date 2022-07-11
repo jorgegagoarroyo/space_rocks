@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objetos y clases</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            height: 100%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        body{
+            background-color: black;
+            background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .elemento{
+            width: 100px;
+            height: 100px;
+            /* border: 1px solid; */
+            /* background-color: brown; */
+            background-image: url(https://cdn.pixabay.com/photo/2014/12/22/00/03/rock-576669_960_720.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            position: absolute;
+                top: 0px;
+                left: 0px;
+            display:none;
+        }
+        .nave{
+            position: absolute;
+        }
+        .vidas{
+            background-image: url('https://cdn.pixabay.com/photo/2014/04/02/10/38/spaceship-304073_960_720.png');
+            background-color: transparent;
+            height: 500px;
+            width: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .vida{
+            display: flex;
+            height: 50px;
+            gap: 5px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .pieza{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            background-image: url('https://cdn.pixabay.com/photo/2021/02/28/00/51/satelite-6056085_960_720.png');
+            position: absolute;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .ecenario{
+            border: 5px dotted;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="ecenario">
+        <div class="vida" id="plantilla_vida"></div>
+        <div class="elemento" id="plantilla_elemento"></div>
+        <div class="juego"></div>
+
+    </div>
+    
+
+    <script src="src/elemento.js"></script>
+    <script src="src/nave.js"></script>
+    <script src="src/enemigo.js"></script>
+    <script src="src/piezas.js"></script>
+    <script src="src/juego.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
